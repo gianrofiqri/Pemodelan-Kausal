@@ -2,10 +2,6 @@
 
 Analisis hubungan kausalitas faktor-faktor klinis terhadap penyakit jantung menggunakan Structural Causal Modeling dan framework DoWhy.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![DoWhy](https://img.shields.io/badge/DoWhy-Causal%20Inference-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ## 📋 Deskripsi
 
 Project ini menganalisis hubungan kausal antara faktor-faktor klinis (variabel eksogen) terhadap kejadian penyakit jantung menggunakan pendekatan **Structural Causal Modeling**. Berbeda dengan analisis korelasi tradisional, pendekatan kausal memungkinkan kita memahami hubungan sebab-akibat yang sebenarnya antar variabel.
@@ -100,27 +96,6 @@ Teridentifikasi **21 hubungan kausal** antar variabel. Penyakit jantung dipengar
 - Python 3.8 atau lebih tinggi
 - pip package manager
 
-### Instalasi
-
-```bash
-# Clone repository
-git clone https://github.com/username/heart-disease-causal-analysis.git
-cd heart-disease-causal-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Menjalankan Notebook
-
-```bash
-# Menggunakan Jupyter Notebook
-jupyter notebook Heart_Disease_Causality_Explorer.ipynb
-
-# Atau menggunakan Google Colab
-# Upload notebook ke Google Colab dan jalankan
-```
-
 ## 📁 Struktur Project
 
 ```
@@ -130,8 +105,6 @@ heart-disease-causal-analysis/
 ├── heart.csv                                # Dataset (upload terpisah)
 ├── requirements.txt                         # Dependencies
 ├── README.md                                # Dokumentasi
-└── docs/
-    └── Tugas_Besar_Analisis_Faktor_Penyakit_Jantung.pdf  # Laporan lengkap
 ```
 
 ## 🛠️ Tech Stack
@@ -153,10 +126,6 @@ heart-disease-causal-analysis/
 3. Sharma, A., & Kiciman, E. (2020). DoWhy: An End-to-End Library for Causal Inference. [arXiv:2011.04216](https://arxiv.org/abs/2011.04216)
 4. [DoWhy Documentation](https://www.pywhy.org/dowhy/)
 5. [WHO Cardiovascular Diseases Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds))
-
-## 📄 License
-
-Project ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
 
 ## 👤 Author
 
